@@ -10,11 +10,11 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #43AFFC;
+  background: #000000;
 }
 ::selection{
   color: #fff;
-  background: #43AFFC;
+  background: #303030;
 }
 .wrapper{
   width: 400px;
@@ -26,7 +26,7 @@ body{
   display: flex;
   font-size: 21px;
   font-weight: 500;
-  color: #43AFFC;
+  color: #000000;
   padding: 16px 15px;
   align-items: center;
   border-bottom: 1px solid #ccc;
@@ -34,7 +34,6 @@ body{
 header i{
   font-size: 0em;
   cursor: pointer;
-  margin-right: 8px;
 }
 .wrapper.active header i{
   margin-left: 5px;
@@ -55,16 +54,16 @@ header i{
   margin-bottom: 15px;
 }
 .input-part .info-txt.error{
-  color: #721c24;
+  color: #ff0000;
   display: block;
-  background: #f8d7da;
-  border: 1px solid #f5c6cb;
+  background: #000000;
+  border: 1px solid #ffffff;
 }
 .input-part .info-txt.pending{
-  color: #0c5460;
+  color: #000000;
   display: block;
   background: #d1ecf1;
-  border: 1px solid #bee5eb;
+  border: 1px solid #b3b3b3;
 }
 .input-part :where(input, button){
   width: 100%;
@@ -77,19 +76,19 @@ header i{
 .input-part input{
   text-align: center;
   padding: 0 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #b3b3b3;
 }
 .input-part input:is(:focus, :valid){
-  border: 2px solid #43AFFC;
+  border: 2px solid #000000;
 }
 .input-part input::placeholder{
-  color: #bfbfbf;
+  color: #b3b3b3;
 }
 .input-part .separator{
   height: 1px;
   width: 100%;
   margin: 25px 0;
-  background: #ccc;
+  background: #b3b3b3;
   position: relative;
   display: flex;
   align-items: center;
@@ -105,11 +104,11 @@ header i{
 .input-part button{
   color: #fff;
   cursor: pointer;
-  background: #43AFFC;
+  background: #000000;
   transition: 0.3s ease;
 }
 .input-part button:hover{
-  background: #1d9ffc;
+  background: #000000;
 }
 
 .wrapper .weather-part{
@@ -169,7 +168,7 @@ header i{
   justify-content: center;
 }
 .column i{
-  color: #5DBBFF;
+  color: #000000;
   font-size: 40px;
 }
 .column.humidity{
